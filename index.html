@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape the Maze</title>
+    <link rel="stylesheet" href="maze.css">
+</head>
+<body>
+    <h1 id="maze">Escape the Maze - Level <span id="level">1</span></h1>
+    <button id="start">Start Game</button>
+    <h2 id="time">Time Left: <span id="timer">30</span> sec</h2>
+    
+    <canvas id="mazeCanvas"></canvas>
+
+    <!-- Mobile Touch Controls -->
+    <div class="controls">
+        <button id="up">⬆</button>
+        <div>
+            <button id="left">⬅</button>
+            <button id="down">⬇</button>
+            <button id="right">➡</button>
+        </div>
+    </div>
+
+    <!-- Game Buttons -->
+    <button id="restart">🔄 Restart</button>
+    <button id="stop">🛑 Stop</button>
+
+    <script src="maze.js"></script>
+</body>
+</html>
